@@ -1,0 +1,132 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+html {
+    position: relative;
+    min-height: 100%;
+}
+
+body {
+    font-family: Ubuntu, sans-serif;
+    background-color: #a02f2f2b;
+}
+
+a {
+    color: #500000;
+}
+
+footer {
+    height: 30px;
+    width: 100%;
+    background-color: #fafafa;
+    line-height: 30px;
+    position: fixed;
+    z-index: 1000;
+    bottom: 0;
+    color: #777;
+    text-align: center;
+    font-size: 11px !important;
+    padding: 2px 4px;
+}
+
+ul li a {
+    color: #ccc;
+}
+
+ul li.active a {
+    color: #fff;
+    font-weight: bolder;
+}
+
+.container {
+    margin-top: 20px;
+    margin-bottom: 20px;
+    width: 860px;
+}
+
+.content {
+    border-radius: 2px;
+    background-color: #fff;
+    padding: 8px;
+    min-height: 500px;
+}
+
+.box {
+    min-height: 70px;
+    padding: 4px;
+    text-align: center;
+    margin: 20px 0;
+    border: 1px solid #bbb;
+}
+
+.btn-juicy-fill {
+    color: #fff;
+    background-color: #500000;
+    border-color: transparent;
+}
+
+.alert-juicy {
+    color: #fff;
+    font-weight: bold;
+    padding: 8px;
+    background-color: #500000;
+}
+
+.btn-juicy {
+    color: #500000;
+    background-color: transparent;
+    border-color: #500000;
+}
+
+.btn-juicy:hover {
+    color: #ccc;
+    background-color: #500000;
+    border-color: transparent;
+}
+
+.btn-juicy-fill:hover {
+    color: #500000;
+    background-color: #fff;
+    border-color: #500000;
+}
+
+.btn-sm {
+    padding: 2px 20px;
+}
+
+.modal-header {
+    color: #ccc;
+    background-color: #500000;
+}
+
+.btn-table {
+    padding: 1px 3px;
+    font-size: 11px;
+}
+
+.no-border > tbody > tr > td, .no-border > tbody > tr > th {
+    border-top: none !important;
+}
+
+.canceled, .canceled a {
+    color: red;
+}
+
+.right {
+    text-align: right;
+}
+
+.delivered {
+    color: gray;
+}
+
+.center {
+    text-align: center;
+}
+
+.img-sm {
+    height: 40px;
+    width: 120px;
+}
